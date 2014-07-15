@@ -1,0 +1,368 @@
+
+div#boxbasic, div#boxbasic2 {
+	position: relative;
+	width: 410px;
+	height: 410px;
+	display: inline-block;
+    zoom : 0.7;
+    z-index: 10;
+}
+
+div.trianglebig { height: 0px; width: 0px; border-width: 0px 200px 200px; border-style: solid; border-color: transparent transparent rgb(255, 255, 255); }
+div.trianglebig-90 { height: 0px; width: 0px; border-width: 200px 0px 200px 200px; border-style: solid; border-color: transparent transparent transparent rgb(255, 255, 255); }
+div.trianglemedium-45 { height: 0px; width: 0px; border-width: 0px 200px 200px 0px; border-style: solid; border-color: transparent rgb(255, 255, 255); }
+div.trianglesmall-180 { height: 0px; width: 0px; border-width: 100px 100px 0px; border-style: solid; border-color: rgb(255, 255, 255) transparent; }
+div.trianglesmall-270 { height: 0px; width: 0px; border-width: 100px 100px 100px 0px; border-style: solid; border-color: transparent rgb(255, 255, 255); }
+div.square-45 div { height: 0px; width: 0px; border-width: 0px 100px 100px; border-style: solid; border-color: rgb(255, 255, 255) transparent; }
+div.square-45 div + div { height: 0px; width: 0px; border-width: 100px 100px 0px; border-style: solid; border-color: rgb(255, 255, 255) transparent; }
+div.parallello div { display: inline-block; height: 0px; width: 0px; border-width: 100px 100px 0px; border-style: solid; border-color: rgb(255, 255, 255) transparent transparent; }
+div.parallello div + div { display: inline-block; height: 0px; width: 0px; border-width: 0px 100px 100px; border-style: solid; border-color: rgb(255, 255, 255) transparent; position: relative; left: -100px; }
+#one1, #one2 { opacity: 0.7; }
+#two1, #two2 { opacity: 0.65; }
+#three1, #three2 { opacity: 0.6; }
+#four1, #four2 { opacity: 0.5; }
+#five1, #five2 { opacity: 0.55; }
+#seven1, #seven2 { opacity: 0.75; }
+#eight1, #eight2 { opacity: 0.8; }
+#boxbasic, #boxbasic2 { transform: scale(0.7); }
+#boxbasic div { transition: all 2s ease-in-out 0.2s; }
+#boxbasic2 div { transition: all 1s ease-in-out 0s; }
+
+#one1, #one2 { position: absolute; top: 4px; left: 4px; }
+#two1, #two2 { position: absolute; top: 0px; left: 4px; }
+#three1, #three2 { position: absolute; top: 0px; left: 208px; }
+#four1, #four2 { position: absolute; top: 104px; left: 208px; }
+#five1, #five2 { position: absolute; top: 102px; left: 106px; }
+#seven1, #seven2 { position: absolute; top: 206px; left: 6px; }
+#eight1, #eight2 { position: absolute; top: 206px; left: 310px; }
+
+
+
+
+#boxbasic2.gru #one1,#boxbasic2.gru #one2,.no-antialias.fallback-scroll-3 #boxbasic2 #one1,.no-antialias.fallback-scroll-3 #boxbasic2 #one2,.no-antialias.viewing-page-4#boxbasic2 #one1,.no-antialias.viewing-page-4#boxbasic2 #one2 {
+    -webkit-transform: translate(105px, 140px) rotate(135deg);
+    -moz-transform: translate(105px, 140px) rotate(135deg);
+    -o-transform: translate(105px, 140px) rotate(135deg);
+    -ms-transform: translate(105px, 140px) rotate(135deg);
+    transform: translate(105px, 140px) rotate(135deg)
+}
+
+#boxbasic2.gru #two1,#boxbasic2.gru #two2,.no-antialias.fallback-scroll-3 #boxbasic2 #two1,.no-antialias.fallback-scroll-3 #boxbasic2 #two2,.no-antialias.viewing-page-4#boxbasic2 #two1,.no-antialias.viewing-page-4#boxbasic2 #two2 {
+    -webkit-transform: rotate(90deg) rotateX(180deg) translate(-85px, -60px);
+    -moz-transform: rotate(90deg) rotateX(180deg) translate(-85px, -60px);
+    -o-transform: rotate(90deg) rotateX(180deg) translate(-85px, -60px);
+    -ms-transform: rotate(90deg) scaleX(-1) translate(183px, 60px);
+    transform: rotate(90deg) rotateX(180deg) translate(-85px, -60px)
+}
+
+#boxbasic2.gru #three1,#boxbasic2.gru #three2,.no-antialias.fallback-scroll-3 #boxbasic2 #three1,.no-antialias.fallback-scroll-3 #boxbasic2 #three2,.no-antialias.viewing-page-4#boxbasic2 #three1,.no-antialias.viewing-page-4#boxbasic2 #three2 {
+    -webkit-transform: rotate(-135deg) translate(0px, -247px);
+    -moz-transform: rotate(-135deg) translate(0px, -247px);
+    -o-transform: rotate(-135deg) translate(0px, -247px);
+    -ms-transform: rotate(-135deg) translate(0px, -247px);
+    transform: rotate(-135deg) translate(0px, -247px)
+}
+
+#boxbasic2.gru #four1,#boxbasic2.gru #four2,.no-antialias.fallback-scroll-3 #boxbasic2 #four1,.no-antialias.fallback-scroll-3 #boxbasic2 #four2,.no-antialias.viewing-page-4#boxbasic2 #four1,.no-antialias.viewing-page-4#boxbasic2 #four2 {
+    -webkit-transform: translate(-217px, -134px);
+    -moz-transform: translate(-217px, -134px);
+    -o-transform: translate(-217px, -134px);
+    -ms-transform: translate(-217px, -134px);
+    transform: translate(-217px, -134px)
+}
+
+#boxbasic2.gru #five1,#boxbasic2.gru #five2,.no-antialias.fallback-scroll-3 #boxbasic2 #five1,.no-antialias.fallback-scroll-3 #boxbasic2 #five2,.no-antialias.viewing-page-4#boxbasic2 #five1,.no-antialias.viewing-page-4#boxbasic2 #five2 {
+    -webkit-transform: rotate(-45deg) translate(89px, -305px);
+    -moz-transform: rotate(-45deg) translate(89px, -305px);
+    -o-transform: rotate(-45deg) translate(89px, -305px);
+    -ms-transform: rotate(-45deg) translate(89px, -305px);
+    transform: rotate(-45deg) translate(89px, -305px)
+}
+
+#boxbasic2.gru #seven1,#boxbasic2.gru #seven2,.no-antialias.fallback-scroll-3 #boxbasic2 #seven1,.no-antialias.fallback-scroll-3 #boxbasic2 #seven2,.no-antialias.viewing-page-4#boxbasic2 #seven1,.no-antialias.viewing-page-4#boxbasic2 #seven2 {
+    -webkit-transform: translate(137px, -76px) rotate(-180deg);
+    -moz-transform: translate(137px, -76px) rotate(-180deg);
+    -o-transform: translate(137px, -76px) rotate(-180deg);
+    -ms-transform: translate(137px, -76px) rotate(-180deg);
+    transform: translate(137px, -76px) rotate(-180deg)
+}
+
+#boxbasic2.gru #eight1,#boxbasic2.gru #eight2,.no-antialias.fallback-scroll-3 #boxbasic2 #eight1,.no-antialias.fallback-scroll-3 #boxbasic2 #eight2,.no-antialias.viewing-page-4#boxbasic2 #eight1,.no-antialias.viewing-page-4#boxbasic2 #eight2 {
+    -webkit-transform: rotate(180deg) translate(321px, 133px);
+    -moz-transform: rotate(180deg) translate(321px, 133px);
+    -o-transform: rotate(180deg) translate(321px, 133px);
+    -ms-transform: rotate(180deg) translate(321px, 133px);
+    transform: rotate(180deg) translate(321px, 133px)
+}
+
+#boxbasic2.cammello #one1,#boxbasic2.cammello #one2 {
+    -webkit-transform: translate(23px, 23px);
+    -moz-transform: translate(23px, 23px);
+    -o-transform: translate(23px, 23px);
+    -ms-transform: translate(23px, 23px);
+    transform: translate(23px, 23px)
+}
+
+#boxbasic2.cammello #two1,#boxbasic2.cammello #two2 {
+    -webkit-transform: rotateX(180deg) rotate(90deg) translate(27px, 232px);
+    -moz-transform: rotateX(180deg) rotate(90deg) translate(27px, 232px);
+    -o-transform: rotateX(180deg) rotate(90deg) translate(27px, 232px);
+    -ms-transform: scaleX(-1) rotate(90deg) translate(70px, -231px);
+    transform: rotateX(180deg) rotate(90deg) translate(27px, 232px)
+}
+
+#boxbasic2.cammello #three1,#boxbasic2.cammello #three2 {
+    -webkit-transform: rotate(-45deg) translate(-41px, -7px);
+    -moz-transform: rotate(-45deg) translate(-41px, -7px);
+    -o-transform: rotate(-45deg) translate(-41px, -7px);
+    -ms-transform: rotate(-45deg) translate(-41px, -7px);
+    transform: rotate(-45deg) translate(-41px, -7px)
+}
+
+#boxbasic2.cammello #four1,#boxbasic2.cammello #four2 {
+    -webkit-transform: translate(-180px, -181px);
+    -moz-transform: translate(-180px, -181px);
+    -o-transform: translate(-180px, -181px);
+    -ms-transform: translate(-180px, -181px);
+    transform: translate(-180px, -181px)
+}
+
+#boxbasic2.cammello #five1,#boxbasic2.cammello #five2 {
+    -webkit-transform: rotate(90deg) translate(-235px, 233px);
+    -moz-transform: rotate(90deg) translate(-235px, 233px);
+    -o-transform: rotate(90deg) translate(-235px, 233px);
+    -ms-transform: rotate(90deg) translate(-235px, 233px);
+    transform: rotate(90deg) translate(-235px, 233px)
+}
+
+#boxbasic2.cammello #seven1,#boxbasic2.cammello #seven2 {
+    -webkit-transform: rotate(45deg) translate(25px, -176px);
+    -moz-transform: rotate(45deg) translate(25px, -176px);
+    -o-transform: rotate(45deg) translate(25px, -176px);
+    -ms-transform: rotate(45deg) translate(25px, -176px);
+    transform: rotate(45deg) translate(25px, -176px)
+}
+
+#boxbasic2.cammello #eight1,#boxbasic2.cammello #eight2 {
+    -webkit-transform: rotate(-90deg) translate(443px, -437px);
+    -moz-transform: rotate(-90deg) translate(443px, -437px);
+    -o-transform: rotate(-90deg) translate(443px, -437px);
+    -ms-transform: rotate(-90deg) translate(443px, -437px);
+    transform: rotate(-90deg) translate(443px, -437px)
+}
+
+#boxbasic2.runner #one1,#boxbasic2.runner #one2 {
+    -webkit-transform: rotate(90deg) translate(0px, -205px);
+    -moz-transform: rotate(90deg) translate(0px, -205px);
+    -o-transform: rotate(90deg) translate(0px, -205px);
+    -ms-transform: rotate(90deg) translate(0px, -205px);
+    transform: rotate(90deg) translate(0px, -205px)
+}
+
+#boxbasic2.runner #two1,#boxbasic2.runner #two2 {
+    -webkit-transform: translate(206px, 409px);
+    -moz-transform: translate(206px, 409px);
+    -o-transform: translate(206px, 409px);
+    -ms-transform: translate(206px, 409px);
+    transform: translate(206px, 409px)
+}
+
+#boxbasic2.runner #three1,#boxbasic2.runner #three2 {
+    -webkit-transform: translate(-250px, 310px) rotate(135deg);
+    -moz-transform: translate(-250px, 310px) rotate(135deg);
+    -o-transform: translate(-250px, 310px) rotate(135deg);
+    -ms-transform: translate(-250px, 310px) rotate(135deg);
+    transform: translate(-250px, 310px) rotate(135deg)
+}
+
+#boxbasic2.runner #four1,#boxbasic2.runner #four2 {
+    -webkit-transform: translate(0px, -205px);
+    -moz-transform: translate(0px, -205px);
+    -o-transform: translate(0px, -205px);
+    -ms-transform: translate(0px, -205px);
+    transform: translate(0px, -205px)
+}
+
+#boxbasic2.runner #five1,#boxbasic2.runner #five2 {
+    -webkit-transform: translate(-340px, 204px) rotate(180deg);
+    -moz-transform: translate(-340px, 204px) rotate(180deg);
+    -o-transform: translate(-340px, 204px) rotate(180deg);
+    -ms-transform: translate(-340px, 204px) rotate(180deg);
+    transform: translate(-340px, 204px) rotate(180deg)
+}
+
+#boxbasic2.runner #eight1,#boxbasic2.runner #eight2 {
+    -webkit-transform: rotate(-90deg) translate(-256px, 150px);
+    -moz-transform: rotate(-90deg) translate(-256px, 150px);
+    -o-transform: rotate(-90deg) translate(-256px, 150px);
+    -ms-transform: rotate(-90deg) translate(-256px, 150px);
+    transform: rotate(-90deg) translate(-256px, 150px)
+}
+
+#boxbasic2.cup #one1,#boxbasic2.cup #one2 {
+    -webkit-transform: translate(28px, -8px) rotate(-45deg);
+    -moz-transform: translate(28px, -8px) rotate(-45deg);
+    -o-transform: translate(28px, -8px) rotate(-45deg);
+    -ms-transform: translate(28px, -8px) rotate(-45deg);
+    transform: translate(28px, -8px) rotate(-45deg)
+}
+
+#boxbasic2.cup #two1,#boxbasic2.cup #two2 {
+    -webkit-transform: translate(0px, 21px);
+    -moz-transform: translate(0px, 21px);
+    -o-transform: translate(0px, 21px);
+    -ms-transform: translate(0px, 21px);
+    transform: translate(0px, 21px)
+}
+
+#boxbasic2.cup #three1,#boxbasic2.cup #three2 {
+    -webkit-transform: translate(-205px, -184px) rotate(90deg);
+    -moz-transform: translate(-205px, -184px) rotate(90deg);
+    -o-transform: translate(-205px, -184px) rotate(90deg);
+    -ms-transform: translate(-205px, -184px) rotate(90deg);
+    transform: translate(-205px, -184px) rotate(90deg)
+}
+
+#boxbasic2.cup #four1,#boxbasic2.cup #four2 {
+    -webkit-transform: translate(4px, -183px);
+    -moz-transform: translate(4px, -183px);
+    -o-transform: translate(4px, -183px);
+    -ms-transform: translate(4px, -183px);
+    transform: translate(4px, -183px)
+}
+
+#boxbasic2.cup #five1,#boxbasic2.cup #five2 {
+    -webkit-transform: translate(53px, -235px) rotate(-90deg);
+    -moz-transform: translate(53px, -235px) rotate(-90deg);
+    -o-transform: translate(53px, -235px) rotate(-90deg);
+    -ms-transform: translate(53px, -235px) rotate(-90deg);
+    transform: translate(53px, -235px) rotate(-90deg)
+}
+
+#boxbasic2.cup #seven1,#boxbasic2.cup #seven2 {
+    -webkit-transform: translate(72px, -110px) rotate(-45deg);
+    -moz-transform: translate(72px, -110px) rotate(-45deg);
+    -o-transform: translate(72px, -110px) rotate(-45deg);
+    -ms-transform: translate(72px, -110px) rotate(-45deg);
+    transform: translate(72px, -110px) rotate(-45deg)
+}
+
+#boxbasic2.cup #eight1,#boxbasic2.cup #eight2 {
+    -webkit-transform: translate(-154px, 155px) rotate(90deg);
+    -moz-transform: translate(-154px, 155px) rotate(90deg);
+    -o-transform: translate(-154px, 155px) rotate(90deg);
+    -ms-transform: translate(-154px, 155px) rotate(90deg);
+    transform: translate(-154px, 155px) rotate(90deg)
+}
+
+#boxbasic2.triangle #one1,#boxbasic2.triangle #one2 {
+    -webkit-transform: rotate(-90deg) translate(-81px, -86px);
+    -moz-transform: rotate(-90deg) translate(-81px, -86px);
+    -o-transform: rotate(-90deg) translate(-81px, -86px);
+    -ms-transform: rotate(-90deg) translate(-81px, -86px);
+    transform: rotate(-90deg) translate(-81px, -86px)
+}
+
+#boxbasic2.triangle #two1,#boxbasic2.triangle #two2 {
+    -webkit-transform: translate(325px, 285px);
+    -moz-transform: translate(325px, 285px);
+    -o-transform: translate(325px, 285px);
+    -ms-transform: translate(325px, 285px);
+    transform: translate(325px, 285px)
+}
+
+#boxbasic2.triangle #three1,#boxbasic2.triangle #three2 {
+    -webkit-transform: rotate(180deg) translate(-16px, -185px);
+    -moz-transform: rotate(180deg) translate(-16px, -185px);
+    -o-transform: rotate(180deg) translate(-16px, -185px);
+    -ms-transform: rotate(180deg) translate(-16px, -185px);
+    transform: rotate(180deg) translate(-16px, -185px)
+}
+
+#boxbasic2.triangle #four1,#boxbasic2.triangle #four2 {
+    -webkit-transform: translate(16px, -24px);
+    -moz-transform: translate(16px, -24px);
+    -o-transform: translate(16px, -24px);
+    -ms-transform: translate(16px, -24px);
+    transform: translate(16px, -24px)
+}
+
+#boxbasic2.triangle #five1,#boxbasic2.triangle #five2 {
+    -webkit-transform: rotate(-90deg) translate(75px, 67px);
+    -moz-transform: rotate(-90deg) translate(75px, 67px);
+    -o-transform: rotate(-90deg) translate(75px, 67px);
+    -ms-transform: rotate(-90deg) translate(75px, 67px);
+    transform: rotate(-90deg) translate(75px, 67px)
+}
+
+#boxbasic2.triangle #seven1,#boxbasic2.triangle #seven2 {
+    -webkit-transform: rotate(-90deg) translate(125px, -86px);
+    -moz-transform: rotate(-90deg) translate(125px, -86px);
+    -o-transform: rotate(-90deg) translate(125px, -86px);
+    -ms-transform: rotate(-90deg) translate(125px, -86px);
+    transform: rotate(-90deg) translate(125px, -86px)
+}
+
+#boxbasic2.triangle #eight1,#boxbasic2.triangle #eight2 {
+    -webkit-transform: rotate(90deg) translate(-74px, -66px);
+    -moz-transform: rotate(90deg) translate(-74px, -66px);
+    -o-transform: rotate(90deg) translate(-74px, -66px);
+    -ms-transform: rotate(90deg) translate(-74px, -66px);
+    transform: rotate(90deg) translate(-74px, -66px)
+}
+
+#boxbasic2.barca #one1,#boxbasic2.barca #one2 {
+    -webkit-transform: translate(-43px, -63px) rotate(120deg);
+    -moz-transform: translate(-43px, -63px) rotate(120deg);
+    -o-transform: translate(-43px, -63px) rotate(120deg);
+    -ms-transform: translate(-43px, -63px) rotate(120deg);
+    transform: translate(-43px, -63px) rotate(120deg)
+}
+
+#boxbasic2.barca #two1,#boxbasic2.barca #two2 {
+    -webkit-transform: translate(-13px, 215px) rotate(-45deg);
+    -moz-transform: translate(-13px, 215px) rotate(-45deg);
+    -o-transform: translate(-13px, 215px) rotate(-45deg);
+    -ms-transform: translate(-13px, 215px) rotate(-45deg);
+    transform: translate(-13px, 215px) rotate(-45deg)
+}
+
+#boxbasic2.barca #three1,#boxbasic2.barca #three2 {
+    -webkit-transform: translate(-300px, 131px) rotate(135deg);
+    -moz-transform: translate(-300px, 131px) rotate(135deg);
+    -o-transform: translate(-300px, 131px) rotate(135deg);
+    -ms-transform: translate(-300px, 131px) rotate(135deg);
+    transform: translate(-300px, 131px) rotate(135deg)
+}
+
+#boxbasic2.barca #four1,#boxbasic2.barca #four2 {
+    -webkit-transform: translate(66px, 97px) rotate(45deg);
+    -moz-transform: translate(66px, 97px) rotate(45deg);
+    -o-transform: translate(66px, 97px) rotate(45deg);
+    -ms-transform: translate(66px, 97px) rotate(45deg);
+    transform: translate(66px, 97px) rotate(45deg)
+}
+
+#boxbasic2.barca #five1,#boxbasic2.barca #five2 {
+    -webkit-transform: translate(278px, 114px) rotate(135deg);
+    -moz-transform: translate(278px, 114px) rotate(135deg);
+    -o-transform: translate(278px, 114px) rotate(135deg);
+    -ms-transform: translate(278px, 114px) rotate(135deg);
+    transform: translate(278px, 114px) rotate(135deg)
+}
+
+#boxbasic2.barca #seven1,#boxbasic2.barca #seven2 {
+    -webkit-transform: translate(178px, -166px) rotate(-150deg);
+    -moz-transform: translate(178px, -166px) rotate(-150deg);
+    -o-transform: translate(178px, -166px) rotate(-150deg);
+    -ms-transform: translate(178px, -166px) rotate(-150deg);
+    transform: translate(178px, -166px) rotate(-150deg)
+}
+
+#boxbasic2.barca #eight1,#boxbasic2.barca #eight2 {
+    -webkit-transform: translate(-95px, 30px) rotate(-135deg);
+    -moz-transform: translate(-95px, 30px) rotate(-135deg);
+    -o-transform: translate(-95px, 30px) rotate(-135deg);
+    -ms-transform: translate(-95px, 30px) rotate(-135deg);
+    transform: translate(-95px, 30px) rotate(-135deg)
+}
