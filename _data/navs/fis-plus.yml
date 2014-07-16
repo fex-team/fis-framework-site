@@ -9,3 +9,9 @@
 - title: 安装
   url: /docs/fis-plus/user/quickstart.html#安装
   type: sub
+- title: 示例
+  url: /docs/fis-plus/user/quickstart.html#示例
+  type: sub
+- title: 示例解说
+  url: /docs/fis-plus/user/quickstart.html#示例解说
+  type: sub
