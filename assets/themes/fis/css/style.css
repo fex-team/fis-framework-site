@@ -95,7 +95,7 @@ article .anchor {
 }
 .sidebar ul li a {
   display: block;
-  color: #f4645f;
+  color: #00b8df;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
@@ -104,7 +104,7 @@ article .anchor {
 .sidebar ul li span {
   cursor: default;
   display: block;
-  color: #f4645f;
+  color: #00b8df;
 }
 .sidebar ul li a:hover {
   color: #444444;
@@ -302,7 +302,7 @@ code {
 }
 article {
   line-height: 1.7;
-  font-size: 14px;
+  font-size: 15px;
 }
 article blockquote {
   border-left: 4px solid #DDD;
@@ -315,7 +315,7 @@ article img {
 }
 article a,
 article a:visited {
-  color: #ff4400;
+  color: #00b8df;
   text-decoration: none;
 }
 article a:hover {
@@ -351,8 +351,8 @@ ul {
   padding-left: 30px;
 }
 .affix > .nav > .active > a {
-  color: #ff4400;
-  border-left: 2px solid #ff4400;
+  color: #00b8df;
+  border-left: 2px solid #00b8df;
   padding-left: 28px;
   font-weight: bold;
 }
@@ -369,8 +369,8 @@ ul {
   padding-left: 42px;
 }
 .affix > .nav > li > .nav > .active > a {
-  color: #ff4400;
-  border-left: 2px solid #ff4400;
+  color: #00b8df;
+  border-left: 2px solid #00b8df;
   padding-left: 40px;
 }
 .affix > .nav > .active > .nav {
