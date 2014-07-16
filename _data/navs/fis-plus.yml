@@ -1,22 +1,11 @@
-- title: 快速入门
-  url: /docs/beginning/getting-started.html
+- title: fis-plus介绍
+  url: /docs/fis-plus/
   type: category
 
-- title: 资源压缩
-  url: /docs/beginning/getting-started.html#optimize
-  type: sub
+- title: 快速入手
+  url: /docs/fis-plus/quickstart.html#optimize
+  type: category
 
 - title: 资源合并
   url: /docs/beginning/getting-started.html#combine
   type: sub
-
-- title: 辅助开发
-  url: /docs/beginning/assist.html
-  type: sub
-
-- title: 命令行
-  url: /docs/api/cli.html
-  type: sub
-
-- title: 进阶使用
-  type: category
