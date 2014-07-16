@@ -16,6 +16,7 @@ author :
   email : fe@baidu.com
   github : fex-team
 
+img : /assets/images
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -64,8 +65,8 @@ JB :
  #   http://s3.amazonaws.com/yoursite/themes/watermelon
  #   /assets
  #
-  #ASSET_PATH : '/assets/themes/fis/'
-  ASSET_PATH : http://fex-team.github.io/fis-framework-site/assets/themes/fis
+  ASSET_PATH : '/assets/themes/fis/'
+  #ASSET_PATH : http://fex-team.github.io/fis-framework-site/assets/themes/fis
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #

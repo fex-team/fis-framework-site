@@ -3,9 +3,9 @@
   type: category
 
 - title: 快速入手
-  url: /docs/fis-plus/quickstart.html#optimize
+  url: /docs/fis-plus/user/quickstart.html
   type: category
 
-- title: 资源合并
-  url: /docs/beginning/getting-started.html#combine
+- title: 安装
+  url: /docs/fis-plus/user/quickstart.html#安装
   type: sub
