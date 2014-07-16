@@ -1,18 +1,25 @@
 <aside>
     <nav class="sidebar">
         <ul>
-            {% for config in site.data.nav %}
-            <li class="item-{{ config.type }}">
-                {% if (config.url) %}
-                <a href="{{ config.url }}">
-                    {{ config.title }}
-                </a>
-                {% else %}
-                <span>
-                    {{ config.title }}
-                </span>
+            {%assign categories = {{page.category|split:'/'}} %}
+            {%assign nav_type={{categories[0]}}%}
+
+            {% for nav_ in site.data.navs %}
+                {%if nav_[0] == nav_type%}
+                    {% for config in nav_[1] %}
+                        <li class="item-{{ config.type }}">
+                            {% if (config.url) %}
+                            <a href="{{ config.url }}">
+                                {{ config.title }}
+                            </a>
+                            {% else %}
+                            <span>
+                                {{ config.title }}
+                            </span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
                 {% endif %}
-            </li>
             {% endfor %}
         </ul>
     </nav>
