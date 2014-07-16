@@ -85,7 +85,7 @@ npm install -g lights
 ## 示例
 _以下示例都是在命令行下操作的，如果你是windows用户，请打命令的时候忽略命令前的`$`，而且请打开`cmd`来执行这些操作_
 
-已经准备好了一个fis-plus的前端项目，只需要经过一下四步，就可以完整运行这个项目，并看到结果。
+已经准备好了一个fis-plus的前端项目，只需要经过以下四步，就可以完整运行这个项目，并看到结果。
 
 - 初始化本地模拟环境
 - 下载Demo
@@ -101,6 +101,7 @@ $ fisp server init
 
 ###下载Demo
 FIS的所有示例及其组件都用包管理工具`lights`进行管理，使用`lights`安装demo。
+
 ```bash
 $ lights install pc-demo
 ```
