@@ -6,7 +6,7 @@ category: fis-plus/user
 
 > FIS-PLUS提供一套基于smarty(version >= 3.1.13)插件的后台运行框架，针对静态资源管理、模板模块化、pagelet等功能。
 
-### html
+## html
 
 * 功能：代替\<html\>标签，设置页面运行的前端框架，以及控制整体页面输出。
 * 属性值：framework及html标签原生属性值
@@ -22,7 +22,7 @@ category: fis-plus/user
 
 ![](/static/images/fis-plus/tpl1.jpg)
 
-### head
+## head
 
 * 功能：代替\<head\>标签，控制CSS资源加载输出。
 * 属性值：head标签原生属性值
@@ -39,7 +39,7 @@ category: fis-plus/user
 
 ![head](/static/images/fis-plus/tpl2.jpg)
 
-### body
+## body
 
 * 功能：代替\<body\>标签，控制JS资源加载输出。
 * 属性值：body标签原生属性值
@@ -60,7 +60,7 @@ category: fis-plus/user
 
 ![body](/static/images/fis-plus/tpl3.jpg)
 
-### script
+## script
 
 * 功能：代替\<script\>标签，收集使用JS组件的代码块，控制输出至页面底部。
 * 属性值：无
@@ -84,7 +84,7 @@ category: fis-plus/user
 
 ![script](/static/images/fis-plus/tpl4.jpg)
 
-### require
+## require
 
 * 功能：通过静态资源管理框架加载静态资源。
 * 插件类型：compiler
@@ -110,7 +110,7 @@ category: fis-plus/user
 
 ![require](/static/images/fis-plus/tpl5.jpg)
 
-### widget
+## widget
 
 * 功能：调用模板组件，渲染输出模板片段。
 * 插件类型：compiler

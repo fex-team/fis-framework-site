@@ -22,6 +22,34 @@
   url: /docs/fis-plus/user/dev.html
   type: category
 
+- title: 三条开发命令
+  url: /docs/fis-plus/user/dev.html#三条开发命令
+  type: sub
+
+- title: 目录规范
+  url: /docs/fis-plus/user/dev.html#目录规范
+  type: sub
+
+- title: 三种语言能力
+  url: /docs/fis-plus/user/dev.html#三种语言能力
+  type: sub
+
+- title: 模板开发
+  url: /docs/fis-plus/user/dev.html#模板开发
+  type: sub
+
+- title: JS & Css
+  url: /docs/fis-plus/user/dev.html#JS&Css
+  type: sub
+
+- title: 自动化工具
+  url: /docs/fis-plus/user/dev.html#自动化工具
+  type: sub
+
+- title: 配置
+  url: /docs/fis-plus/user/dev.html#配置
+  type: sub
+
 - title: 测试联调
   url: /docs/fis-plus/user/test.html
   type: category

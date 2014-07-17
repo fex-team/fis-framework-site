@@ -4,7 +4,7 @@ title: page
 category: fis-plus/user
 ---
 
-### 页面模板
+## 页面模板
 
 在模块中，用户可直接访问浏览的页面称为页面模板，文件在 **模块根目录/page/** 下。FIS提供提供了很多模板插件替换原生html标签，为页面模板开发提供使用。
 
@@ -109,11 +109,11 @@ template的安装方式
     //在common的static/lib目录下执行下面命令
     $ lights install template
 
-### 模板组件化
+## 模板组件化
 
 模板组件是能独立提供功能且能够复用的页面片段，所在规范目录 **模块根目录/widget/** ，模板组件以模板、JS组件、CSS组件组成（默认必须有模板）。
 
-### widget定义
+## widget定义
 
 只要在widget目录下的Smarty模板即为模板组件，``目录下有与模板同名的JS、CSS文件FIS会自动添加依赖关系处理，在模板渲染时进行同步加载``。
 
@@ -124,7 +124,7 @@ template的安装方式
     //调用模板的路径为 modulename:模板在widget目录下路径
     {%widget name="home:widget/section/section.tpl" %}
 
-### widget函数调用方式
+## widget函数调用方式
 
 widget插件可以直接调用某个smarty的function函数，使用方式为:
 

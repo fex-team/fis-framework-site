@@ -4,7 +4,7 @@ title: 自动化工具
 category: fis-plus/user
 ---
 
-### 模板XSS修复工具
+## 模板XSS修复工具
 
 * 功能：对Smarty模板进行XSS校验修复。
 * 默认开启：true(已默认配置)
@@ -31,7 +31,7 @@ fis.config.set('settings.optimizer.smarty-xss', {
 });
 ```
 
-### 图片合并工具
+## 图片合并工具
 
 * 功能：对
 * 环境要求：依赖native插件，[node-images](https://github.com/xiangshouding/node-images) 环境需要符合个插件的要求。(OS X、Windows提供了二进制包)
@@ -46,7 +46,7 @@ fis.config.set('settings.spriter.csssprites', {
 });
 ```
 
-### 模板压缩工具
+## 模板压缩工具
 
 * 功能：对Smarty模板进行压缩。
 * 默认开启：true(已默认配置)
@@ -59,7 +59,7 @@ fis.config.set('modules.optimizer.tpl', 'html-compress');
 
 * 详细使用文档：[用户文档](https://github.com/wangcheng714/fis-optimizer-html-compress)
 
-### JS压缩工具
+## JS压缩工具
 
 * 功能：通过uglify-js对JS文件进行压缩。
 * 默认开启：true(已默认配置)
@@ -70,7 +70,7 @@ fis.config.set('modules.optimizer.js', 'uglify-js');
 ```
 
 
-### CSS压缩工具
+## CSS压缩工具
 
 * 功能：通过clean-css对CSS文件进行压缩。
 * 默认开启：true(已默认配置)

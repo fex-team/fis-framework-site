@@ -53,7 +53,7 @@ Options:
 * [require](./smarty-plugin.html#require)
 * [widget](./smarty-plugin.html#widget)
 
-## Js & Css
+## Js&Css
 
 > 提供JS & CSS组件化开发方式，极大提高代码可维护性和并行开发能力。
 
