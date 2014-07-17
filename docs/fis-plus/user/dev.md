@@ -60,11 +60,22 @@ Options:
 * [Js 开发](./js-widget.html)
 * [Css 开发](./css-widget.html)
 
-## 自动化工具 & 打包
+## 自动化工具
 
-> 拥有所有FIS自动化能力，同时针对Smarty+php，集成多个插件，实现：模板xss修复，模板压缩等功能
+> 拥有所有FIS自动化能力，同时针对Smarty+php，集成多个插件，实现：模板xss修复，模板压缩,css sprite图片合并等功能。
 
-* [模板xss修复]()
-* [模板压缩]()
-* [css sprites 图片合并]()
-* [打包配置]()
+* [模板xss修复](./xss.html)
+* [模板压缩](./xss.html)
+* [css sprites 图片合并](./xss.html)
+* [查看更多插件](http://fis.baidu.com/docs/advance/plugin-list.html)
+
+## 配置
+
+> 修改fis-conf.js文件，即可更新项目配置。FIS-PLUS默认配置简单完整，以下列出用户需要关注的配置。更多配置信息请访问FIS网站。
+
+* [Smarty 配置](./config.html#smarty)
+* [Doamin 配置](./config.html#smarty)
+* [插件 配置](./plugin.html)
+* [打包 配置](./pack.html)
+* [autopack 自动打包服务](http://solar.baidu.com/autopack)
+* [查看更多FIS服务](http://solar.baidu.com/)
