@@ -33,6 +33,7 @@ npm install some-npm-module -g --registry=国内镜像
 ```
 * 下面提供一个国内镜像。其他镜像大家可以自己找找
 * --registry=http://r.cnpmjs.org
+* ``百度内部测试机无法连接外网，可以使用公司内镜像 --registry=http://npm.internal.baidu.com``
 
 ### 安装 fis-plus
 
@@ -162,7 +163,7 @@ $ fisp server start #启动服务器
 - page 页面模板
 - widget 组件，模板组件，JS组件，CSS组件，会被组件化
 - static 这个目录下放一些不需要组件化的公共库，比如`lazyload.js`
-- test 防止一些测试数据，和`page`下的模板相对应，表明哪个模板用哪个数据文件进行渲染
+- test 放置一些测试数据，和`page`下的模板相对应，表明哪个模板用哪个数据文件进行渲染
 - server.conf 这是一个很有用的文件，它里面可以配置url转发，可以方便在本地模拟`ajax`请求等。
 
 _细心的你有可能发现了一个比较专业的词汇**组件化**，组件化的细节比较繁多，准备新开一节说明_
