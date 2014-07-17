@@ -54,6 +54,31 @@
   url: /docs/fis-plus/user/test.html
   type: category
 
+- title: 调试环境安装
+  url: /docs/fis-plus/user/test.html#调试环境安装
+  type: sub
+
+- title: 本地url模拟
+  url: /docs/fis-plus/user/test.html#本地url模拟
+  type: sub
+
+- title: 本地测试数据
+  url: /docs/fis-plus/user/test.html#本地测试数据
+  type: sub
+
+- title: 线上调试
+  url: /docs/fis-plus/user/test.html#线上调试
+  type: sub
+
+
 - title: 部署上线
   url: /docs/fis-plus/user/deploy.html
   type: category
+
+- title: 上传测试机
+  url: /docs/fis-plus/user/test.html#线上调试
+  type: sub
+
+- title: 发布上线
+  url: /docs/fis-plus/user/test.html#线上调试
+  type: sub
