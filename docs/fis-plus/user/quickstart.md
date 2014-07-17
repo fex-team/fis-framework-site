@@ -34,7 +34,7 @@ npm install some-npm-module -g --registry=国内镜像
 * 下面提供一个国内镜像。其他镜像大家可以自己找找
 * --registry=http://r.cnpmjs.org
 
-### 安装fis
+### 安装 fis-plus
 
 nodejs安装好后，命令行执行
 

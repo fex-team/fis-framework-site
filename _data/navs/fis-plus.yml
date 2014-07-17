@@ -17,3 +17,15 @@
 - title: 示例解说
   url: /docs/fis-plus/user/quickstart.html#示例解说
   type: sub
+
+- title: 本地开发
+  url: /docs/fis-plus/user/dev.html
+  type: category
+
+- title: 测试联调
+  url: /docs/fis-plus/user/test.html
+  type: category
+
+- title: 部署上线
+  url: /docs/fis-plus/user/deploy.html
+  type: category
