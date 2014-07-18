@@ -1,0 +1,84 @@
+- title: fis-plus介绍
+  url: /docs/fis-plus/
+  type: category
+
+- title: 快速入手
+  url: /docs/fis-plus/user/quickstart.html
+  type: category
+
+- title: 安装
+  url: /docs/fis-plus/user/quickstart.html#安装
+  type: sub
+
+- title: 示例
+  url: /docs/fis-plus/user/quickstart.html#示例
+  type: sub
+
+- title: 示例解说
+  url: /docs/fis-plus/user/quickstart.html#示例解说
+  type: sub
+
+- title: 本地开发
+  url: /docs/fis-plus/user/dev.html
+  type: category
+
+- title: 三条开发命令
+  url: /docs/fis-plus/user/dev.html#三条开发命令
+  type: sub
+
+- title: 目录规范
+  url: /docs/fis-plus/user/dev.html#目录规范
+  type: sub
+
+- title: 三种语言能力
+  url: /docs/fis-plus/user/dev.html#三种语言能力
+  type: sub
+
+- title: 模板开发
+  url: /docs/fis-plus/user/dev.html#模板开发
+  type: sub
+
+- title: JS & Css
+  url: /docs/fis-plus/user/dev.html#JS&Css
+  type: sub
+
+- title: 自动化工具
+  url: /docs/fis-plus/user/dev.html#自动化工具
+  type: sub
+
+- title: 配置
+  url: /docs/fis-plus/user/dev.html#配置
+  type: sub
+
+- title: 测试联调
+  url: /docs/fis-plus/user/test.html
+  type: category
+
+- title: 调试环境安装
+  url: /docs/fis-plus/user/test.html#调试环境安装
+  type: sub
+
+- title: 本地url模拟
+  url: /docs/fis-plus/user/test.html#本地url模拟
+  type: sub
+
+- title: 本地测试数据
+  url: /docs/fis-plus/user/test.html#本地测试数据
+  type: sub
+
+- title: 线上调试
+  url: /docs/fis-plus/user/test.html#线上调试
+  type: sub
+
+
+- title: 部署上线
+  url: /docs/fis-plus/user/deploy.html
+  type: category
+
+- title: 上传测试机
+  url: /docs/fis-plus/user/test.html#线上调试
+  type: sub
+
+- title: 发布上线
+  url: /docs/fis-plus/user/test.html#线上调试
+  type: sub

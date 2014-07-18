@@ -5,18 +5,19 @@
             {%assign nav_type={{categories[0]}}%}
 
             {%if nav_type == "fis-plus"%}
-                {%assign nav_ = site.data.navs.fis-plus%}
+                {%assign nav_ = site.data.fis-plus%}
             {%elsif nav_type == "yogurt"%}
-                {%assign nav_ = site.data.navs.yogurt%}
+                {%assign nav_ = site.data.yogurt%}
             {%elsif nav_type == "jello"%}
-                {%assign nav_ = site.data.navs.jello%}
+                {%assign nav_ = site.data.jello%}
             {%elsif nav_type == "gois"%}
-                {%assign nav_ = site.data.navs.gois%}
+                {%assign nav_ = site.data.gois%}
             {%elsif nav_type == "pure"%}
-                {%assign nav_ = site.data.navs.pure%}
+                {%assign nav_ = site.data.pure%}
             {%endif%}
 
-
+            {{nav_}}
+            
             {% for config in nav_ %}
                 <li class="item-{{ config.type }}">
                     {% if (config.url) %}
