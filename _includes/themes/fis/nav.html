@@ -3,7 +3,7 @@
         <ul>
             {%assign categories = {{page.category|split:'/'}} %}
             {%assign nav_type={{categories[0]}}%}
-
+            
             {%if nav_type == "fis-plus"%}
                 {%assign nav_ = site.data.fis-plus%}
             {%elsif nav_type == "yogurt"%}
