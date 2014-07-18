@@ -15,21 +15,23 @@
             {%elsif nav_type == "pure"%}
                 {%assign nav_ = site.data.pure%}
             {%endif%}
-
-            {% for config in nav_ %}
-                <li class="item-{{ config.type }}">
-                    {% if (config.url) %}
-                    <a href="{{ config.url }}">
-                        {{ config.title }}
-                    </a>
-                    {% else %}
-                    <span>
-                        {{ config.title }}
-                    </span>
-                    {% endif %}
-                </li>
+            {% for nav_  in site.data %}
+                {% if nav_[0] == nav_type %}
+                    {% for config in nav_[1] %}
+                        <li class="item-{{ config.type }}">
+                            {% if (config.url) %}
+                            <a href="{{ config.url }}">
+                                {{ config.title }}
+                            </a>
+                            {% else %}
+                            <span>
+                                {{ config.title }}
+                            </span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                {% endif %}
             {% endfor %}
-
         </ul>
     </nav>
     <div class="bottom-shadow"></div>
