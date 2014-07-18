@@ -16,8 +16,6 @@
                 {%assign nav_ = site.data.pure%}
             {%endif%}
 
-            {{nav_}}
-            
             {% for config in nav_ %}
                 <li class="item-{{ config.type }}">
                     {% if (config.url) %}
