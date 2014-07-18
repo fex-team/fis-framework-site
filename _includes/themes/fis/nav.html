@@ -3,25 +3,34 @@
         <ul>
             {%assign categories = {{page.category|split:'/'}} %}
             {%assign nav_type={{categories[0]}}%}
-            {{site.data.navs}}
-            {{nav_type}}
-            {% for nav_ in  site.data.navs %}
-                {%if nav_[0] == nav_type%}
-                    {% for config in nav_[1] %}
-                        <li class="item-{{ config.type }}">
-                            {% if (config.url) %}
-                            <a href="{{ config.url }}">
-                                {{ config.title }}
-                            </a>
-                            {% else %}
-                            <span>
-                                {{ config.title }}
-                            </span>
-                            {% endif %}
-                        </li>
-                    {% endfor %}
-                {% endif %}
+
+            {%if nav_type == "fis-plus"%}
+                {%assign nav_ = site.data.navs.fis-plus%}
+            {%elsif nav_type == "yogurt"%}
+                {%assign nav_ = site.data.navs.yogurt%}
+            {%elsif nav_type == "jello"%}
+                {%assign nav_ = site.data.navs.jello%}
+            {%elsif nav_type == "gois"%}
+                {%assign nav_ = site.data.navs.gois%}
+            {%elsif nav_type == "pure"%}
+                {%assign nav_ = site.data.navs.pure%}
+            {%endif%}
+
+
+            {% for config in nav_ %}
+                <li class="item-{{ config.type }}">
+                    {% if (config.url) %}
+                    <a href="{{ config.url }}">
+                        {{ config.title }}
+                    </a>
+                    {% else %}
+                    <span>
+                        {{ config.title }}
+                    </span>
+                    {% endif %}
+                </li>
             {% endfor %}
+
         </ul>
     </nav>
     <div class="bottom-shadow"></div>
