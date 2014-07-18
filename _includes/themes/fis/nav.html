@@ -5,6 +5,7 @@
             {%assign nav_type={{categories[0]}}%}
 
             {% for nav_ in site.data.navs %}
+                {{nav_}}
                 {%if nav_[0] == nav_type%}
                     {% for config in nav_[1] %}
                         <li class="item-{{ config.type }}">
