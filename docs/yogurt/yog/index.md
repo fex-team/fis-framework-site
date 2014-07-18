@@ -233,8 +233,8 @@ res.render('index.tpl', {});
 {%html%}
   ...
 
-  {%widget "first.tpl" id="first"%}
-  {%widget "second.tpl" id="second"%}
+  {%widget "first.tpl" id="first" mode="async"%}
+  {%widget "second.tpl" id="second" mode="async"%}
   ...
 {%endhtml%}
 ```
