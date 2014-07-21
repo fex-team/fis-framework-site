@@ -76,9 +76,9 @@
   type: category
 
 - title: 上传测试机
-  url: /docs/fis-plus/user/test.html#线上调试
+  url: /docs/fis-plus/user/deploy.html#上传测试机
   type: sub
 
 - title: 发布上线
-  url: /docs/fis-plus/user/test.html#线上调试
+  url: /docs/fis-plus/user/deploy.html#发布上线
   type: sub
