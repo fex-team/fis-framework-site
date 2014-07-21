@@ -168,3 +168,67 @@ $ fisp server start #启动服务器
 
 _细心的你有可能发现了一个比较专业的词汇**组件化**，组件化的细节比较繁多，准备新开一节说明_
 
+### page 如何引入 widget
+
+- 如示例中`index.tpl`如何应用`widget/header/header.tpl` ? 如果用过smarty的你可能会想到`include`，但在FIS-PLUS中引入widget有个跟`include`类似的插件完成，`widget`。
+    
+    {%raw%}
+    ```html
+    {%widget name="home:widget/header/header.tpl"%}
+    ```
+    {%endraw%}
+
+    `home:widget/header/header.tpl` 这个是FIS中[静态资源id](#静态资源id)
+
+
+### 模板中如何使用widget目录下的静态资源
+根据目录规范`widget`目录下的js讲被进行[组件化封装]()，根据[同名依赖]()原则；
+
+- 当使用某个widget下模板是，同名js,css将会被加载。
+- 当使用某个widget下的js时，其同名css会被加载。
+
+#### 加载JS
+由于js进行了组件化封装，比如通过`require`或者`require.async`函数来执行其中逻辑。
+{%raw%}
+```html
+{%script%}
+require('/widget/a.js');
+{%/script%}
+```
+{%endraw%}
+
+如上，在模板中使用`widget`下的js，必须放到{%raw%}`{%script%}`  `{%/script%}`之间，用它来代替js的内联用法。{%endraw%}
+
+#### 加载css
+说完加载js的方法，css如何引入呢？
+
+- 同名依赖，被依赖
+- 通过smarty的`require`插件
+
+{%raw%}
+```html
+{%require name="home:widget/a.css"%}
+```
+{%endraw%}
+
+### 静态资源id
+
+静态资源id会贯穿整个用户文档，跟使用密切相关，所以它很重要。现在需要弄清楚两件事情
+
+- 静态资源id是如何在`fis-plus`中计算的？
+- 静态资源id在那些情况下使用，那些情况下必须用静态资源id？
+
+#### 静态资源id是如何在`fis-plus`中计算的？
+
+`fis-plus`必须要指定模块的`namespace`，所以静态资源id被标记为
+
+> namespace:<资源相对于模块根目录的路径>
+
+比如:  
+
+- `home/static/a.js` home目录为模块跟目录，`home`为`namespace`，则静态资源id就为 `home:static/a.js`
+    - `namespace`可以为任意值，可以不跟模块根目录相同。
+
+#### 静态资源id在那些情况下使用，那些情况下必须用静态资源id？
+- 使用widget,require,html等smarty插件时，必须指定资源的id
+- require,require.async等JavaScript函数，可以使用id

@@ -12,15 +12,16 @@ category: fis-plus/user
 * 属性值：framework及html标签原生属性值
 * 是否必须：是
 * 用法：在模板中替换普通\<html\>标签
-{%raw%}
 
+{%raw%}
 ```smarty
 {%html framework="home:static/lib/mod.js"%}
     ....
 {%/html%}
 ```
+{%endraw%}
 
-![](/static/images/fis-plus/tpl1.jpg)
+![]({{site.img}}/fis-plus/tpl1.jpg)
 
 ## head
 
@@ -29,6 +30,7 @@ category: fis-plus/user
 * 是否必须：是
 * 用法：在模板中替换普通\<head\>标签
 
+{%raw%}
 ```smarty
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
@@ -36,8 +38,9 @@ category: fis-plus/user
     {%/head%}
 {%/html%}
 ```
+{%endraw%}
 
-![head](/static/images/fis-plus/tpl2.jpg)
+![head]({{site.img}}/fis-plus/tpl2.jpg)
 
 ## body
 
@@ -46,7 +49,7 @@ category: fis-plus/user
 * 是否必须：是
 * 用法：在模板中替换普通\<body\>标签
 
-
+{%raw%}
 ```smarty
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
@@ -57,16 +60,18 @@ category: fis-plus/user
     {%/body%}
 {%/html%}
 ```
+{%endraw%}
 
-![body](/static/images/fis-plus/tpl3.jpg)
+![body]({{site.img}}/fis-plus/tpl3.jpg)
 
 ## script
 
-* 功能：代替\<script\>标签，收集使用JS组件的代码块，控制输出至页面底部。
+* 功能：代替`<script>`标签，收集使用JS组件的代码块，控制输出至页面底部。
 * 属性值：无
 * 是否必须：在模板中使用异步JS组件的JS代码块，必须通过插件包裹
-* 用法：在模板中替换普通\<script\>标签
+* 用法：在模板中替换普通`<script>`标签
 
+{%raw%}
 ```smarty
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
@@ -81,8 +86,9 @@ category: fis-plus/user
     {%/body%}
 {%/html%}
 ```
+{%endraw%}
 
-![script](/static/images/fis-plus/tpl4.jpg)
+![script]({{site.img}}/fis-plus/tpl4.jpg)
 
 ## require
 
@@ -92,6 +98,7 @@ category: fis-plus/user
 * 是否必须：是
 * 用法：在模板中如果需要加载模块内某个静态资源，可以通过require插件加载，便于管理输出静态资源
 
+{%raw%}
 ```smarty
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
@@ -107,8 +114,9 @@ category: fis-plus/user
     {%/body%}
 {%/html%}
 ```
+{%endraw%}
 
-![require](/static/images/fis-plus/tpl5.jpg)
+![require]({{site.img}}/fis-plus/tpl5.jpg)
 
 ## widget
 
@@ -118,6 +126,7 @@ category: fis-plus/user
 * 是否必须：是
 * 用法：在模板中调用某个模板组件
 
+{%raw%}
 ```smarty
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
@@ -133,7 +142,6 @@ category: fis-plus/user
     {%/body%}
 {%/html%}
 ```
-
-![widget](/static/images/fis-plus/tpl6.jpg)
-
 {%endraw%}
+
+![widget]({{site.img}}/fis-plus/tpl6.jpg)

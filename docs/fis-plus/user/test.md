@@ -14,7 +14,7 @@ category: fis-plus/user
 ```
 安装FIS-PLUS本地运行环境后，执行 **fisp server open** 命令可打开本地运行环境目录
 
-![本地运行环境目录](/static/images/fis-plus/server.jpg)
+![本地运行环境目录]({{site.img}}/fis-plus/server.jpg)
 
 ## 本地url模拟
 
