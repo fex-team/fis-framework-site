@@ -14,7 +14,7 @@ category: fis-plus/user
 * 用法：在模板中替换普通\<html\>标签
 
 {%raw%}
-```smarty
+```html
 {%html framework="home:static/lib/mod.js"%}
     ....
 {%/html%}
@@ -31,7 +31,7 @@ category: fis-plus/user
 * 用法：在模板中替换普通\<head\>标签
 
 {%raw%}
-```smarty
+```html
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
         <meta charset="utf-8"/>
@@ -50,7 +50,7 @@ category: fis-plus/user
 * 用法：在模板中替换普通\<body\>标签
 
 {%raw%}
-```smarty
+```html
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
         <meta charset="utf-8"/>
@@ -72,7 +72,7 @@ category: fis-plus/user
 * 用法：在模板中替换普通`<script>`标签
 
 {%raw%}
-```smarty
+```html
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
        <meta charset="utf-8"/>
@@ -99,7 +99,7 @@ category: fis-plus/user
 * 用法：在模板中如果需要加载模块内某个静态资源，可以通过require插件加载，便于管理输出静态资源
 
 {%raw%}
-```smarty
+```html
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
        <meta charset="utf-8"/>
@@ -127,7 +127,7 @@ category: fis-plus/user
 * 用法：在模板中调用某个模板组件
 
 {%raw%}
-```smarty
+```html
 {%html framework="home:static/lib/mod.js"%}
     {%head%}
        <meta charset="utf-8"/>

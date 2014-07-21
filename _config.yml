@@ -16,7 +16,10 @@ author :
   email : fe@baidu.com
   github : fex-team
 
-img : /assets/images
+# online
+img : /fis-framework-site/assets/images
+# offline
+# img: /assets/images
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -56,7 +59,7 @@ JB :
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
   BASE_PATH : 'https://fex-team.github.io/fis-framework-site'
-
+  #BASE_PATH : "/"
  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
  #

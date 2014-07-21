@@ -15,7 +15,7 @@ category: fis-plus/user
 从demo中common模块的layout.tpl，可以了解到如何通过后端框架进行开发，组织整个页面:
 {%raw%}
 
-```smarty
+```html
 <!DOCTYPE html>
 {%* 使用html插件替换普通html标签，同时注册JS组件化库 *%}
 {%html framework="common:static/mod.js" class="expanded"%}
@@ -39,7 +39,7 @@ category: fis-plus/user
 
 在demo-home模块中的index.tpl，加载页面模板对应的静态资源，通过模板组件组织页面:
 
-```smarty
+```html
 {%extends file="common/page/layout.tpl"%}
 {%block name="block_head_static"%}
     <!--[if lt IE 9]>
