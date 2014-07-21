@@ -8,9 +8,9 @@ category: fis-plus/user
 
 在模块中，用户可直接访问浏览的页面称为页面模板，文件在 **模块根目录/page/** 下。FIS提供提供了很多模板插件替换原生html标签，为页面模板开发提供使用。
 
-* 通过[html插件](/userdoc/fis/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#html)控制整体页面的输出，以及注册前端组件化框架。
-* 通过[head插件](/userdoc/fis/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#head)在模板解析运行时，控制加载同步静态资源使用。
-* 通过[body插件](/userdoc/fis/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#body)可在页面底部集中输出JS静态资源。
+* 通过[html插件](smarty-plugin.html#html)控制整体页面的输出，以及注册前端组件化框架。
+* 通过[head插件](smarty-plugin.html#head)在模板解析运行时，控制加载同步静态资源使用。
+* 通过[body插件](smarty-plugin.html#body)可在页面底部集中输出JS静态资源。
 
 从demo中common模块的layout.tpl，可以了解到如何通过后端框架进行开发，组织整个页面:
 {%raw%}
@@ -33,9 +33,9 @@ category: fis-plus/user
 {%/html%}
 ```
 
-* 通过[require插件](/userdoc/fis/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#require)加载静态资源，便于静态资源管理。
-* 通过[script插件](/userdoc/fis/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#script)管理JS片段，集中在页面底部加载。
-* 通过[widget插件](/userdoc/fis/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#widget)调用模板组件组织页面，处理对应的静态资源。
+* 通过[require插件](smarty-plugin.html#require)加载静态资源，便于静态资源管理。
+* 通过[script插件](smarty-plugin.html#script)管理JS片段，集中在页面底部加载。
+* 通过[widget插件](smarty-plugin.html#widget)调用模板组件组织页面，处理对应的静态资源。
 
 在demo-home模块中的index.tpl，加载页面模板对应的静态资源，通过模板组件组织页面:
 
