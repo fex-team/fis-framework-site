@@ -39,8 +39,8 @@ FIS 根据目录规范默认设置了文件的产出路径：
 
 用户通过配置 **deploy节点** 进行文件上传，fis支持使用post请求向http服务器发送文件，服务器端可以使用php、java等后端逻辑进行接收，[fis-command-release](https://github.com/fis-dev/fis-command-release)插件中提供了一个这样的 [php版示例](https://github.com/fis-dev/fis-command-release/blob/master/tools/receiver.php)，用户可以直接部署此文件于接收端服务器上。
 
-``注意： receiver.php放到测试机后，请在浏览器中直接访问该文件，保证可以访问。
-可以访问的情况下，页面会显示 I'm ready for that, you know. ``
+> 注意： receiver.php放到测试机后，请在浏览器中直接访问该文件，保证可以访问。
+可以访问的情况下，页面会显示 I'm ready for that, you know. 
 
 根据产出目录以及联调机器，进行上传配置：
 
