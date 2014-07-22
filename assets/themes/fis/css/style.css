@@ -398,17 +398,19 @@ ul {
   .sidebar ul {
     padding: 0 0 0 40px;
   }
+
   .sidebar {
     width: 250px;
     padding: 0 0 10px 0;
     bottom: 0px;
     min-height: 0px;
     overflow: hidden;
-    position: relative;
+    position: fixed;
     height: 100%;
     float: left;
     top: 0;
   }
+  
   .sidebar.scrollbar {
     position: fixed;
     top: 57px;
