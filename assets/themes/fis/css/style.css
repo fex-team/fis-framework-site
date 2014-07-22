@@ -294,12 +294,13 @@ article img {
 }
 article a,
 article a:visited {
-  color: #00b8df;
+  color: #4183c4;
   text-decoration: none;
 }
 article a:hover {
-  color: #ff1100;
+  text-decoration: underline;
 }
+
 ul {
   padding: 0 0 0 20px;
 }
