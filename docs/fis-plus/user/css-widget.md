@@ -12,7 +12,7 @@ category: fis-plus/user
 
 ## 其他CSS
 
-在非widget目录下的CSS资源，皆为非组件化资源。用户可以通过link标签、[require插件](/userdoc/fis/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#require)等方式进行调用.
+在非widget目录下的CSS资源，皆为非组件化资源。用户可以通过link标签、[require插件](smarty-plugin.html#require)等方式进行调用.
 
 ## 页面模板静态资源
 

@@ -4,12 +4,6 @@ title: 上传测试机
 category: fis-plus/user
 ---
 
-<!--
-title: 上传部署
-toc: {:toc}
-tpl: detail
--->
-
 ## 产出目录
 
 FIS 根据目录规范默认设置了文件的产出路径：
