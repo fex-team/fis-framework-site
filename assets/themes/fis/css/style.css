@@ -408,9 +408,9 @@ ul {
     position: fixed;
     height: 100%;
     float: left;
-    top: 0;
+    top: 70px;
   }
-  
+
   .sidebar.scrollbar {
     position: fixed;
     top: 57px;
