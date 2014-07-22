@@ -38,6 +38,16 @@ fis.config.set('settings.smarty', {
 })
 ```
 
+### 本地调试环境smarty定界符修改
+在模块根目录下放置`smarty.conf`将其内容设置为：
+
+```
+left_delimiter='<{'
+right_delimiter='}>'
+```
+
+_假设有多个模块，只需要在common模块根目录下放置`smarty.conf`_
+
 ## domain配置
 
 设置静态资源域名，domain的值如果不是特殊需要，请不要以"/"结尾。
