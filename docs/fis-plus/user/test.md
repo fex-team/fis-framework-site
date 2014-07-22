@@ -9,8 +9,8 @@ category: fis-plus/user
 > 用户在无后端开发环境情况下，可依赖提供本地开发调试进行开发，包括本地调试环境、模拟转发模块、测试数据模块。
 
 ```bash
-    fisp server init //安装调试环境
-    fisp server start //开启调试服务器
+fisp server init //安装调试环境
+fisp server start //开启调试服务器
 ```
 安装FIS-PLUS本地运行环境后，执行 **fisp server open** 命令可打开本地运行环境目录
 
