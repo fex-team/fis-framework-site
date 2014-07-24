@@ -20,7 +20,14 @@ table th {
   border: 1px solid #ddd;
   padding: 6px 13px;
 }
-
+@media screen and (max-width: 800px) {
+    #nav ul li.logo{
+    display: none;
+  }
+  #nav ul{
+    margin-left: 20px;
+  }
+}
 
 /*********************************navi************************************/
 #nav {

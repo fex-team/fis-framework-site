@@ -27,11 +27,11 @@
 		<h3 class="slogan">使用<a target="_blank" href="http://fis.baidu.com">FIS </a>, 轻松定制属于你的解决方案</h3>
 		<div class="row">
 			<ul class="sub_nav">
-			  <li class="active" data-id="fis-plus" data-class="" data-url="docs/fis-plus"><a title="点击查看介绍" href="#">fis-plus</a></li>
-			  <li data-id="yogurt" data-class="barca" data-url="docs/yogurt"><a title="点击查看介绍"  href="#">yogurt</a></li>
-			  <li data-id="jello" data-class="triangle" data-url="docs/jello"><a title="点击查看介绍"  href="#">jello</a></li>
-			  <li data-id="pure" data-class="cup" data-url="docs/pure"><a title="点击查看介绍"  href="#">pure</a></li>
-			  <li data-id="gois" data-class="gru" data-url="docs/gois"><a title="点击查看介绍"  href="#">gois</a></li>
+			  <li class="active" data-id="fis-plus" data-class="" data-url="docs/fis-plus" data-git="https://github.com/fex-team/fis-plus"><a title="点击查看介绍" href="#">fis-plus</a></li>
+			  <li data-id="yogurt" data-class="barca" data-url="docs/yogurt" data-git="https://github.com/fex-team/yog"><a title="点击查看介绍"  href="#">yogurt</a></li>
+			  <li data-id="jello" data-class="triangle" data-url="docs/jello" data-git="https://github.com/fex-team/jello"><a title="点击查看介绍"  href="#">jello</a></li>
+			  <li data-id="pure" data-class="cup" data-url="docs/pure" data-git="https://github.com/fex-team/fis-pure"><a title="点击查看介绍"  href="#">pure</a></li>
+			  <li data-id="gois" data-class="gru" data-url="docs/gois" data-git="https://github.com/xiangshouding/gois"><a title="点击查看介绍"  href="#">gois</a></li>
 			</ul>
 		</div>
 		<div  class="row clearfix">
@@ -92,15 +92,17 @@
     			}
     			var id = $(this).attr("data-id"), //方案ID，对应说明文字div id
     				newClass= $(this).attr("data-class"), //方案七巧板动画class
+    				github = $(this).attr("data-git");
     				url = $(this).attr("data-url");   //方案具体页面url
 
     			var oldClass = $("#boxbasic2").attr("class");
     			$(this).addClass("active").siblings().removeClass("active");
-
+    			console.log(github);
     			$(".intro .text").hide();
     			$("#"+id).fadeIn();   		
     			$("#boxbasic2").removeClass(oldClass).addClass(newClass);
     			$("#more").attr("href",url);
+    			$("a.github").attr("href",github);
 
     		})
     	})

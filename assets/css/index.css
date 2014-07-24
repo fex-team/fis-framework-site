@@ -30,7 +30,7 @@ body{
 #nav ul li.logo{
 	margin-right: 250px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #nav ul li.logo{
 		display: none;
 	}
@@ -170,7 +170,7 @@ a.btn:hover{
 a.github{
 	background: url(../images/github.png) left top no-repeat scroll;
 	display: inline-block;
-	opacity: 0.5;
+	opacity: 0.4;
 	float: left;
 	width:60px;
 	height: 60px;
