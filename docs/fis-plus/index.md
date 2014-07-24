@@ -11,4 +11,13 @@ fis-plus 是扩展自[FIS][FIS]的前端集成解决方案。其提供 后端框
 fis-plus 是对[FIS][FIS]及其提出的开发思想的完整实现，并在百度内大多数产品线使用，具有很好的稳定性和可用性。
 
 
+### 合作案例
+
+| 百度搜索 | 百度地图| 百度知道 | 
+| ----   | ----  | ---- |
+| ![ps]({{site.img}}/case/ps.png) | ![map]({{site.img}}/case/map.png) | ![zhidao]({{site.img}}/case/zhidao.png) | 
+| 百度网盘 | 百度图片| 百度旅游 | 
+| ![wp]({{site.img}}/case/wangpan.png) | ![image]({{site.img}}/case/image.png) | ![lvyou]({{site.img}}/case/lvyou.png) | 
+
+
 [FIS]: http://fis.baidu.com "FIS官网"
