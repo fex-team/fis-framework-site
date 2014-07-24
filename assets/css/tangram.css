@@ -4,7 +4,7 @@ div#boxbasic, div#boxbasic2 {
 	width: 410px;
 	height: 410px;
 	display: inline-block;
-    zoom : 0.7;
+    zoom : 0.8;
     z-index: 10;
 }
 

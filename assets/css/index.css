@@ -30,6 +30,14 @@ body{
 #nav ul li.logo{
 	margin-right: 250px;
 }
+@media screen and (max-width: 600px) {
+    #nav ul li.logo{
+		display: none;
+	}
+	#nav ul{
+		margin-left: 20px;
+	}
+}
 #nav ul li{
 	float: left;
 	margin-right: 80px;
@@ -132,18 +140,22 @@ body{
 	text-align: left;
 }
 
+.bt_wrap{
+	padding-top: 50px;
+}
 .btn{
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 0.03em;
 	line-height: 58px;
-	width: 250px;
+	width: 210px;
 	height: 60px;
 	border-radius: 30px;
-	display: block;
+	display: inline-block;
+	float: left;
 	transition: all 0.4s ease;
-	margin: 45px 30px 0 0;
+	margin-right: 30px;
 	border: 2px solid white;
 	background-color: white;
 	color: #00b8df;
@@ -155,16 +167,31 @@ a.btn:hover{
 	color: white;
 }
 
+a.github{
+	background: url(../images/github.png) left top no-repeat scroll;
+	display: inline-block;
+	opacity: 0.5;
+	float: left;
+	width:60px;
+	height: 60px;
+	transition: all 0.5s ease;
+}
+a.github:hover{
+	opacity: 1;
+}
+
 .hide{
 	display: none;
 }
 
 #footer {
+	position: fixed;
 	text-align: center;
 	font-size: 12px;
 	padding: 10px 0;
 	color: white;
-	margin-top: 50px;
+	bottom: 0px;
+	width:100%;
 }
 
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
