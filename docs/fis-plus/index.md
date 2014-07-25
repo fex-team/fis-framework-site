@@ -34,7 +34,7 @@ fis-plus 是对[FIS][FIS]及其提出的开发思想的完整实现，并在百�
 | 移动搜索 | 移动地图| 移动知道 | 
 | :----:   | :----:  | :----: |
 | ![]({{site.img}}/case/m-ps.png) | ![]({{site.img}}/case/m-map.png) | ![]({{site.img}}/case/m-zhidao.png) | 
-|移动图片 |  | 百度旅游 | 百度贴吧| 
+|移动图片 |   百度旅游 | 百度贴吧| 
 ![]({{site.img}}/case/m-image.png) |  ![]({{site.img}}/case/m-lvyou.png) | ![]({{site.img}}/case/m-tieba.png) |
 |百度文库 | 百度百科 |  云相册 |
 | ![]({{site.img}}/case/m-wenku.png) | ![]({{site.img}}/case/m-baike.png) | ![]({{site.img}}/case/m-xiangce.png) | 
