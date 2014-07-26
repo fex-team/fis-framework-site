@@ -17,7 +17,7 @@ author :
   github : fex-team
 
 # online
-img : /assets/images
+img : https://fex-team.github.com/fis-framework-site/assets/images
 # offline
 # img: /assets/images
 
@@ -29,7 +29,7 @@ img : /assets/images
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : 'https://fex-team.github.io/fis-framework-site/'
+production_url : 'http://oak.baidu.com'
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
