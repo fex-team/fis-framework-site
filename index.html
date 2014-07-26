@@ -93,7 +93,7 @@
     			var id = $(this).attr("data-id"), //方案ID，对应说明文字div id
     				newClass= $(this).attr("data-class"), //方案七巧板动画class
     				github = $(this).attr("data-git");
-    				url = "{{site.production_url}}" + $(this).attr("data-url");   //方案具体页面url
+    				url = "{{site.production_url}}/" + $(this).attr("data-url");   //方案具体页面url
     			var oldClass = $("#boxbasic2").attr("class");
     			$(this).addClass("active").siblings().removeClass("active");
     			console.log(github);
