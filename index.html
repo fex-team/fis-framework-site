@@ -12,8 +12,8 @@
 	<!-- 导航栏-->
 	<div id="nav">
 		<ul>
-			<li class="logo"><a href="{{ site.BASE_PATH }}">FIS解决方案</a></li>
-			<li><a href="{{ site.BASE_PATH }}">首页</a></li>
+			<li class="logo"><a href="{{ site.production_url }}">FIS解决方案</a></li>
+			<li><a href="{{ site.production_url }}">首页</a></li>
 			<!-- <li><a href="#">方案定制</a></li> -->
 			<!-- <li><a href="#">联系我们</a></li> -->
             <li><a target="_blank" href="http://fis.baidu.com"><div class="nav-item">FIS官网</div></a></li>
@@ -70,7 +70,7 @@
 				</div>
 
 				<div class="bt_wrap clearfix">
-					<a id="more" href="docs/fis-plus" title="点击查看文档"  class="btn">查看详细</a>
+					<a id="more" href="{{site.production_url}}/docs/fis-plus" title="点击查看文档"  class="btn">查看详细</a>
 					<a class="github" target="_blank" title="点击进入项目github" href="https://github.com/fex-team/fis-plus"></a>
 				</div>
 				
@@ -93,8 +93,7 @@
     			var id = $(this).attr("data-id"), //方案ID，对应说明文字div id
     				newClass= $(this).attr("data-class"), //方案七巧板动画class
     				github = $(this).attr("data-git");
-    				url = $(this).attr("data-url");   //方案具体页面url
-
+    				url = "{{site.production_url}}" + $(this).attr("data-url");   //方案具体页面url
     			var oldClass = $("#boxbasic2").attr("class");
     			$(this).addClass("active").siblings().removeClass("active");
     			console.log(github);
