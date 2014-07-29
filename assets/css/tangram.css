@@ -4,11 +4,11 @@ div#boxbasic, div#boxbasic2 {
 	width: 410px;
 	height: 410px;
 	display: inline-block;
-    -webkit-transform: scale(0.7);
-    -moz-transform: scale(0.7);
-    -o-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    transform: scale(0.7);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
     z-index: 10;
 }
 
@@ -28,7 +28,7 @@ div.parallello div + div { display: inline-block; height: 0px; width: 0px; borde
 #five1, #five2 { opacity: 0.55; }
 #seven1, #seven2 { opacity: 0.75; }
 #eight1, #eight2 { opacity: 0.8; }
-#boxbasic, #boxbasic2 { transform: scale(0.7); }
+#boxbasic, #boxbasic2 { transform: scale(0.6); }
 #boxbasic div { transition: all 2s ease-in-out 0.2s; }
 #boxbasic2 div { transition: all 1s ease-in-out 0s; }
 
