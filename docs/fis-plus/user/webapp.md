@@ -65,6 +65,7 @@ Webapp插件主要包括：
 * 前端加载器[loader][2]，[前端loader][2]依赖[lazyload.js][4]
 * FIS组件化库[modjs][3]保持最新
 
+{%raw%}
 插件引入代码如下：
 
 ```smarty
@@ -201,7 +202,7 @@ appPage.redirect(
 );
 ```
 
-
+{%endraw%}
 如果还有一些小的pagelet（widget）没有考虑到，可以用这个接口做加载。
 
 

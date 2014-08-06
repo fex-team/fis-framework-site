@@ -82,6 +82,8 @@ category: fis-plus/user
 
 网站展示时渲染 **index.tpl** ，widget_A是页面中的一部分。
 
+{%raw%}
+
 ```html
 //index.tpl
 {%widget name="demo:widget/widget_A/widget_A.tpl"%}
@@ -116,6 +118,8 @@ OK，改造完成。
 .....
 </html>
 ```
+
+{%endraw%}
 如上代码，做了俩事情。
 
 1. 挖了个坑`<div id="widget_A"></div>`，异步请求回来的widget_A的html就放在这个坑了。
@@ -130,8 +134,8 @@ OK，改造完成。
 + widget调用的时候设定这个widget的 **渲染模式** 为`quickling`，`mode="quickling"`
 + widget调用的时候设定pagelet_id, `pagelet_id="widget_A"`
 + 运行时，取出class="fis_g_bigrender"中包含的代码，运行它
-+ 页面引入前端加载器[BigPipe.js]()
-+ 项目中使用方案提供的[smarty插件]()
++ 页面引入前端加载器[BigPipe.js](https://github.com/xiangshouding/bigpipe.smarty)
++ 项目中使用方案提供的[smarty插件](https://github.com/xiangshouding/fis-smarty-bigpipe-plugin)
 
 **相关资源** ：
 

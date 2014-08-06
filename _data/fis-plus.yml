@@ -70,7 +70,6 @@
   url: /docs/fis-plus/user/test.html#线上调试
   type: sub
 
-
 - title: 部署上线
   url: /docs/fis-plus/user/deploy.html
   type: category
@@ -88,11 +87,11 @@
   type: category
 
 - title: Quickling
-  url: /docs/fis-plus/user/more_solutions.html#quickling
+  url: /docs/fis-plus/user/more_solutions.html#Quickling
   type: sub
 
 - title: Webapp
-  url: /docs/fis-plus/user/more_solutions.html#webapp
+  url: /docs/fis-plus/user/more_solutions.html#Webapp
   type: sub
 
 - title: i18n
