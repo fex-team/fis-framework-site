@@ -82,3 +82,19 @@
 - title: 发布上线
   url: /docs/fis-plus/user/deploy.html#发布上线
   type: sub
+
+- title: 更多解决方案
+  url: /docs/fis-plus/user/more_solutions.html
+  type: category
+
+- title: Quickling
+  url: /docs/fis-plus/user/more_solutions.html#quickling
+  type: sub
+
+- title: Webapp
+  url: /docs/fis-plus/user/more_solutions.html#webapp
+  type: sub
+
+- title: i18n
+  url: /docs/fis-plus/user/more_solutions.html#i18n
+  type: sub
