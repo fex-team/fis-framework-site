@@ -29,7 +29,7 @@ css ：模板根目录/page/页面名.css
 ``与模板组件同名的静态资源，FIS会自动添加依赖关系，同时会对JS、CSS进行同步加载``。
 
 ```bash
-tpl ：模板根目录/widget/widgetName/页面名widgetName.tpl
+tpl ：模板根目录/widget/widgetName/widgetName.tpl
 js ：模板根目录/widget/widgetName/widgetName.js
 css ：模板根目录/widget/widgetName/widgetName.css
 ```
