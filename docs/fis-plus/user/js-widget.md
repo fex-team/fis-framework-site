@@ -105,8 +105,8 @@ define('common:widget/menu/menu.js', function(require, exports, module){
 
 ```bash
 tpl ：模板根目录/page/页面名.tpl
-js ：模板根目录/page/页面名/页面名.js
-css ：模板根目录/page/页面名/页面名.css
+js ：模板根目录/page/页面名.js
+css ：模板根目录/page/页面名.css
 ```
 
 ## 模板组件静态资源
