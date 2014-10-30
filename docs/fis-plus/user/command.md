@@ -106,6 +106,7 @@ Usage: release [options]
     * [Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
     * [Firefox](http://download.livereload.com/2.0.8/LiveReload-2.0.8.xpi)
     * [IE](https://github.com/dvdotsenko/livereload_ie_extension/downloads) - 真应该滚粗地球
+
 安装好浏览器插件后，在common模块基础模板中添加一段注释代码：
 
 ```
@@ -114,6 +115,7 @@ Usage: release [options]
 ```
 
 然后在相应需要开启livereload的模块(只能同时开启一个)编译时添加-L或--live参数，在浏览器里点击插件按钮进行连接，就完成了设置可以享受了~
+
 * ``--unique`` 或 ``-u`` 参数，每次编译创建一个独立的缓存目录，**解决同一台机器多人编译互相影响的问题**。如果在自己机器一人编译，那就不需要了。
 * ``--verbose`` 参数，编译时输出log信息
 * ``--lint`` 或 ``-l`` 参数，对项目进行lint检查
