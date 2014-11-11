@@ -58,7 +58,7 @@ Usage: release [options]
     --verbose              enable verbose output
 ```
 
-* ``--domain`` 或 ``-D`` 参数，对静态资源添加domian。[domain配置](http://fis.baidu.com/userdoc/fis/%E9%85%8D%E7%BD%AEAPI#toc_30)
+* ``--domain`` 或 ``-D`` 参数，对静态资源添加domian。[domain配置](./config.html#domain配置)
 * ``--watch`` 或 ``-w`` 参数，对项目进行增量编译，监听文件变化再触发编译
 * ``--md5 [level]`` 或 ``-m [level]`` 参数，在编译的时候可以对文件自动加md5戳，从此告别在静态资源url后面写?version=xxx的时代
 * ``--lint`` 或 ``-l`` 参数，支持在编译的时候根据项目配置自动代码检查
@@ -90,7 +90,7 @@ Usage: release [options]
         # win
         fisp release -d d:/work/output
         ```
-    * 使用配置文件的 [deploy节点配置](/userdoc/fis/%E4%B8%8A%E4%BC%A0%E9%83%A8%E7%BD%B2#%E4%B8%8A%E4%BC%A0%E9%85%8D%E7%BD%AE) 进行发布，此配置可将代码上传至远端
+    * 使用配置文件的 [deploy节点配置](./deploy.html) 进行发布，此配置可将代码上传至远端
 
         ```bash
         fisp release -d remote
