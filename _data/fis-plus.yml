@@ -83,17 +83,16 @@
   type: sub
 
 - title: 更多解决方案
-  url: /docs/fis-plus/user/more_solutions.html
   type: category
 
 - title: Quickling
-  url: /docs/fis-plus/user/more_solutions.html#Quickling
+  url: /docs/fis-plus/user/quickling.html
   type: sub
 
 - title: Webapp
-  url: /docs/fis-plus/user/more_solutions.html#Webapp
+  url: /docs/fis-plus/user/webapp.html
   type: sub
 
 - title: i18n
-  url: /docs/fis-plus/user/more_solutions.html#i18n
+  url: /docs/fis-plus/user/i18n.html
   type: sub

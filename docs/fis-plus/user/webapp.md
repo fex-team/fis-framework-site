@@ -22,21 +22,17 @@ category: fis-plus/user
 
 linux or Unix:
 
-> $ wget /static/quickling.zip
+> $ wget https://github.com/xiangshouding/bigpipe.smarty/archive/master.zip
 
 windows:
 
-[下载](/static/quickling.zip)
+[下载](https://github.com/xiangshouding/bigpipe.smarty/archive/master.zip)
 
+后解压，进入目录single
 
-局部刷新
-
-> $ cd single
+> $ cd bigpipe.smarty-master/single
 
 第三步，使用安装的[fis-plus][0]编译发布项目
-
-局部刷新
-
 
 > $ fisp release -cmpr common
 
