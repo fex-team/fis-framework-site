@@ -77,7 +77,51 @@ npm install -g lights
 ### 安装php-cgi
 
 * [mac安装](https://gist.github.com/xiangshouding/9359739)
+
+  mac下安装php-cgi有多种方法，这里只介绍比较简单的两个方法；
+
+  * 用brew安装
+  * 直接下载安装XAMPP
+
+  #### 用brew安装
+  如果安装了xcode，那么推荐使用brew来安装php。详细使用方法见[官网](http://brew.sh/)，这里只说明如何装php-cgi；
+
+  ```bash
+  $ brew install php55 --with-cgi
+  ```
+
+  > 如果安装提示没有php55，请用 brew tap homebrew/homebrew-php 后再安装
+
+  如上，方法很简单，等安装成功后即可使用；
+
+  #### 直接下载安装XAMPP
+
+  到[XAMPP官网](http://www.apachefriends.org/)下载Mac版本，双击安装；等安装成功后需要把XAMPP的bin目录设置到
+  环境变量里面；
+
+  * 使用zsh
+    
+    ```bash
+    $ echo 'export PATH=/Applications/XAMPP/bin:$PATH' >> ~/.zshrc
+    $ source ~/.zshrc
+    ```
+    
+  * 使用bash
+
+    ```bash
+    $ echo 'export PATH=/Applications/XAMPP/bin:$PATH' >> ~/.bashrc
+    $ source ~/.bashrc
+    ```
 * [windows安装](https://gist.github.com/lily-zhangying/9295c5221fa29d429d52)
+
+  windows安装方法很多，下面介绍最简单的一种。
+
+  #### 直接安装xampp
+  地址：[http://www.apachefriends.org/zh_cn/index.html]
+  - 下载xampp并安装，将xampp/php路径加入环境变量中。
+  - 就安装了php和php-cgi。
+  - cmd命令行输入php-cgi -v ，就看到php-cgi版本号。php-cgi就装好啦
+
 * [linux安装](https://github.com/fouber/install-php-cgi-1)
 
 ## 示例
